@@ -3,6 +3,7 @@
     text-align: center;
     align-items: center;
     margin: 5px 0;
+    
 
 }
 
@@ -15,6 +16,11 @@
     border: 1px solid #AA6817;
     cursor: pointer;
     outline: none;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
 }
 
 .BuildControl button:disabled {
@@ -36,6 +42,7 @@
     width: 80px;
     align-items: center;
     text-align: center;
+    
 }
 
 .BuildControl .Less {
