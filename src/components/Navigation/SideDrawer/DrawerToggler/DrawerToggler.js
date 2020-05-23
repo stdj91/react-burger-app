@@ -1,8 +1,15 @@
 import React from 'react';
-import { checkPropTypes } from 'prop-types';
+import classes from './DawerToogle.module.css';
+
 
 const drawerToggler = (props) => (
-    <div onClick={props.clicked}>Menu</div>
+    <div 
+    className={classes.DrawerToggle}
+    onClick={props.clicked}>
+        <div></div>
+        <div></div>
+        <div></div>    
+    </div>
 );
 
 export default drawerToggler;
